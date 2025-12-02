@@ -58,14 +58,14 @@ function Contact() {
               </div>
               <div className="info-text">
                 <span className="info-label">{t('contact.emailLabel')}</span>
-                <span className="info-value">info@erk-power.com</span>
+                <span className="info-value">info@genservice.ge</span>
               </div>
             </div>
 
             <div className="contact-map">
               <div className="map-placeholder">
                 <MapPin size={48} />
-                <span>Kahramankazan, Ankara</span>
+                <span>Tbilisi, Georgia</span>
               </div>
             </div>
           </div>

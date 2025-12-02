@@ -44,10 +44,9 @@ function Footer() {
 
           <div className="footer-links">
             <h4>{t('footer.contact')}</h4>
-            <span>Kahramankazan Sarayköy</span>
-            <span>Ankara, Turkey</span>
+            <span>Tbilisi, Georgia</span>
             <span>+995 511 720 363</span>
-            <span>info@erk-power.com</span>
+            <span>info@genservice.ge</span>
           </div>
         </div>
 
