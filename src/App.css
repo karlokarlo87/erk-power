@@ -1,4 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:wght@300;400;500;600;700&display=swap');
+/* Helvetica Font Family */
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/HelveticaMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/HelveticaBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/HelveticaBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Dark Theme (Default) */
 :root,
@@ -40,7 +63,8 @@ html {
 }
 
 body {
-  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Helvetica', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;

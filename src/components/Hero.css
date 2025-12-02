@@ -82,7 +82,7 @@
   border: 1px solid rgba(255, 200, 0, 0.3);
   border-radius: 30px;
   color: var(--primary);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -91,9 +91,9 @@
 }
 
 .hero-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: clamp(3rem, 8vw, 5.5rem);
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1.1;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -102,7 +102,7 @@
 }
 
 .hero-description {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.15rem;
   color: var(--text-dim);
   line-height: 1.8;
@@ -126,15 +126,15 @@
 
 .stat-number {
   display: block;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--primary);
   line-height: 1;
 }
 
 .stat-label {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.8rem;
   color: var(--text-dim);
   text-transform: uppercase;
@@ -160,7 +160,7 @@
   padding: 1rem 2.5rem;
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   color: var(--dark);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
@@ -180,7 +180,7 @@
   padding: 1rem 2.5rem;
   background: transparent;
   color: var(--text);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;

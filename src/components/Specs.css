@@ -72,14 +72,14 @@
 }
 
 .spec-power span {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text);
 }
 
 .spec-desc {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.95rem;
   color: var(--text-dim);
   line-height: 1.6;

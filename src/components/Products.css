@@ -100,7 +100,7 @@
 }
 
 .product-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   color: var(--text);
@@ -109,7 +109,7 @@
 }
 
 .product-description {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1rem;
   color: var(--text-dim);
   line-height: 1.8;
@@ -128,7 +128,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.95rem;
   color: var(--text);
 }
@@ -145,7 +145,7 @@
   padding: 1rem 2rem;
   background: transparent;
   color: var(--primary);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;

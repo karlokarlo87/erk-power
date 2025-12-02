@@ -34,7 +34,7 @@
 }
 
 .pricing-description {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.1rem;
   color: var(--text-dim);
   line-height: 1.8;
@@ -57,7 +57,7 @@
   border: 1px solid rgba(255, 200, 0, 0.15);
   border-radius: 30px;
   color: var(--primary);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
 }
@@ -69,7 +69,7 @@
   padding: 1.25rem 2.5rem;
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   color: var(--dark);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -136,7 +136,7 @@
 }
 
 .price-label {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.9rem;
   color: var(--text-dim);
   text-transform: uppercase;
@@ -152,7 +152,7 @@
 }
 
 .currency {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--primary);
@@ -160,15 +160,15 @@
 }
 
 .amount {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--text);
   line-height: 1;
 }
 
 .price-period {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.85rem;
   color: var(--primary);
 }
@@ -181,7 +181,7 @@
 }
 
 .price-feature {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1rem;
   color: var(--text);
   padding-left: 0.5rem;

@@ -34,9 +34,9 @@
 }
 
 .logo-text {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 2px;
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   -webkit-background-clip: text;
@@ -51,7 +51,7 @@
 }
 
 .nav-link {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text);
@@ -94,7 +94,7 @@
   border: 1px solid rgba(255, 200, 0, 0.3);
   border-radius: 8px;
   color: var(--text);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.85rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -139,7 +139,7 @@
   background: var(--bg-secondary);
   border: none;
   color: var(--text);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.9rem;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -178,7 +178,7 @@
   padding: 0.75rem 1.5rem;
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
   color: var(--dark);
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   text-decoration: none;
