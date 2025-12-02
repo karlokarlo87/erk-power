@@ -1,11 +1,14 @@
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import { Phone, MessageCircle, FileText, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import './MobileFooter.css';
 
 function MobileFooter() {
   const { t } = useTranslation();
+  const { lang } = useParams();
   const { isDark, toggleTheme } = useTheme();
+  const basePath = `/${lang || 'ka'}`;
 
   const actions = [
     {
@@ -26,7 +29,7 @@ function MobileFooter() {
       key: 'quote',
       icon: FileText,
       label: t('mobileFooter.quote'),
-      href: '#contact',
+      href: `${basePath}#contact`,
       color: '#F472B6'
     }
   ];

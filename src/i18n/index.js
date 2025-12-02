@@ -13,11 +13,21 @@ const resources = {
   ru: { translation: ru }
 };
 
+// Get language from URL path
+const getLanguageFromPath = () => {
+  const path = window.location.pathname;
+  const langMatch = path.match(/^\/(ka|en|ru|tr)/);
+  if (langMatch) {
+    return langMatch[1];
+  }
+  return localStorage.getItem('language') || 'ka';
+};
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: localStorage.getItem('language') || 'ka',
+    lng: getLanguageFromPath(),
     fallbackLng: 'ka',
     interpolation: {
       escapeValue: false

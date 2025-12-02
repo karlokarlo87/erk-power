@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Menu, X, Globe, Zap, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import './Navbar.css';
@@ -13,31 +14,35 @@ const languages = [
 
 function Navbar() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const { lang } = useParams();
   const [isOpen, setIsOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const { isDark, toggleTheme } = useTheme();
 
   const changeLanguage = (code) => {
+    navigate(`/${code}${window.location.hash}`);
     i18n.changeLanguage(code);
     localStorage.setItem('language', code);
     setLangOpen(false);
   };
 
   const currentLang = languages.find(l => l.code === i18n.language) || languages[0];
+  const basePath = `/${lang || 'ka'}`;
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="#" className="navbar-logo">
+        <a href={`${basePath}#home`} className="navbar-logo">
           <Zap className="logo-icon" />
           <span className="logo-text">GENSERVICE</span>
         </a>
 
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
-          <a href="#home" className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.home')}</a>
-          <a href="#about" className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.about')}</a>
-          <a href="#products" className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.products')}</a>
-          <a href="#contact" className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.contact')}</a>
+          <a href={`${basePath}#home`} className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.home')}</a>
+          <a href={`${basePath}#about`} className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.about')}</a>
+          <a href={`${basePath}#products`} className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.products')}</a>
+          <a href={`${basePath}#contact`} className="nav-link" onClick={() => setIsOpen(false)}>{t('nav.contact')}</a>
           
           <div className="language-selector">
             <button className="lang-btn" onClick={() => setLangOpen(!langOpen)}>
@@ -64,7 +69,7 @@ function Navbar() {
             {isDark ? <Sun size={20} /> : <Moon size={20} />}
           </button>
 
-          <a href="#contact" className="nav-cta" onClick={() => setIsOpen(false)}>
+          <a href={`${basePath}#contact`} className="nav-cta" onClick={() => setIsOpen(false)}>
             {t('nav.getQuote')}
           </a>
         </div>

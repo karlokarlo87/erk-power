@@ -5,9 +5,17 @@ Modern React website for GenService - professional diesel generator service in G
 ## Features
 
 - 🌍 Multilingual support (Georgian, English, Russian, Turkish)
+- 🔗 Language URL routing (/ka, /en, /ru, /tr)
 - 🌙 Dark/Light theme toggle
 - 📱 Fully responsive design
 - ⚡ Fast Vite build
+
+## Language Routes
+
+- `/ka` - Georgian (default)
+- `/en` - English
+- `/ru` - Russian
+- `/tr` - Turkish
 
 ## Setup
 
@@ -22,6 +30,27 @@ npm run dev
 npm run build
 ```
 
+## Deployment
+
+### Netlify
+The `_redirects` file is included for SPA routing.
+
+### Vercel
+The `vercel.json` file is included for SPA routing.
+
+### Apache
+Add to .htaccess:
+```
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+```
+
 ## Contact Info
 
 - **Phone:** +995 511 720 363
@@ -31,5 +60,6 @@ npm run build
 
 - React 19
 - Vite 7
+- React Router 7
 - i18next (translations)
 - Lucide React (icons)

@@ -1,9 +1,12 @@
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import { ArrowRight, Award, BadgeCheck, Sparkles } from 'lucide-react';
 import './Pricing.css';
 
 function Pricing() {
   const { t } = useTranslation();
+  const { lang } = useParams();
+  const basePath = `/${lang || 'ka'}`;
 
   return (
     <section className="pricing" id="pricing">
@@ -29,7 +32,7 @@ function Pricing() {
               </div>
             </div>
 
-            <a href="#contact" className="pricing-cta">
+            <a href={`${basePath}#contact`} className="pricing-cta">
               <span>{t('pricing.cta')}</span>
               <ArrowRight size={20} />
             </a>

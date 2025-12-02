@@ -1,17 +1,20 @@
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import { Zap, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 import './Footer.css';
 
 function Footer() {
   const { t } = useTranslation();
+  const { lang } = useParams();
   const currentYear = new Date().getFullYear();
+  const basePath = `/${lang || 'ka'}`;
 
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-main">
           <div className="footer-brand">
-            <a href="#" className="footer-logo">
+            <a href={`${basePath}#home`} className="footer-logo">
               <Zap className="logo-icon" />
               <span className="logo-text">GENSERVICE</span>
             </a>
@@ -28,18 +31,18 @@ function Footer() {
 
           <div className="footer-links">
             <h4>{t('footer.quickLinks')}</h4>
-            <a href="#home">{t('nav.home')}</a>
-            <a href="#about">{t('nav.about')}</a>
-            <a href="#products">{t('footer.products')}</a>
-            <a href="#contact">{t('footer.contact')}</a>
+            <a href={`${basePath}#home`}>{t('nav.home')}</a>
+            <a href={`${basePath}#about`}>{t('nav.about')}</a>
+            <a href={`${basePath}#products`}>{t('footer.products')}</a>
+            <a href={`${basePath}#contact`}>{t('footer.contact')}</a>
           </div>
 
           <div className="footer-links">
             <h4>{t('footer.products')}</h4>
-            <a href="#products">{t('nav.diesel')}</a>
-            <a href="#products">{t('nav.gasoline')}</a>
-            <a href="#specs">5-10 kW</a>
-            <a href="#specs">101-1100 kW</a>
+            <a href={`${basePath}#products`}>{t('nav.diesel')}</a>
+            <a href={`${basePath}#products`}>{t('nav.gasoline')}</a>
+            <a href={`${basePath}#specs`}>5-10 kW</a>
+            <a href={`${basePath}#specs`}>101-1100 kW</a>
           </div>
 
           <div className="footer-links">

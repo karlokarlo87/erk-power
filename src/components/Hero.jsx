@@ -1,9 +1,12 @@
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import { ChevronDown, Zap } from 'lucide-react';
 import './Hero.css';
 
 function Hero() {
   const { t } = useTranslation();
+  const { lang } = useParams();
+  const basePath = `/${lang || 'ka'}`;
 
   return (
     <section className="hero" id="home">
@@ -53,16 +56,16 @@ function Hero() {
         </div>
 
         <div className="hero-actions">
-          <a href="#products" className="btn-primary">
+          <a href={`${basePath}#products`} className="btn-primary">
             {t('hero.cta')}
           </a>
-          <a href="#contact" className="btn-secondary">
+          <a href={`${basePath}#contact`} className="btn-secondary">
             {t('hero.ctaSecondary')}
           </a>
         </div>
       </div>
 
-      <a href="#about" className="scroll-indicator">
+      <a href={`${basePath}#about`} className="scroll-indicator">
         <ChevronDown size={24} />
       </a>
     </section>

@@ -1,27 +1,23 @@
+import { Routes, Route, Navigate } from 'react-router-dom';
 import './i18n';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Products from './components/Products';
-import Specs from './components/Specs';
-import Pricing from './components/Pricing';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import MobileFooter from './components/MobileFooter';
+import LanguageRouter from './components/LanguageRouter';
+import Layout from './components/Layout';
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <Navbar />
-      <Hero />
-      <About />
-      <Products />
-      <Specs />
-      <Pricing />
-      <Contact />
-      <Footer />
-      <MobileFooter />
+      <Routes>
+        {/* Redirect root to default language */}
+        <Route path="/" element={<Navigate to="/ka" replace />} />
+        
+        {/* Language routes */}
+        <Route path="/:lang" element={
+          <LanguageRouter>
+            <Layout />
+          </LanguageRouter>
+        } />
+      </Routes>
     </div>
   );
 }
