@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "diesel": "Diesel Generators",
+    "gasoline": "Gasoline Generators",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "hero": {
+    "subtitle": "ENERGY SOLUTIONS FROM TURKEY TO THE WORLD",
+    "title": "High Quality Power Generators",
+    "description": "As Erk-Power, we provide energy solutions from Turkey to the world with high-quality diesel and gasoline generators produced in our modern factory in Kahramankazan Sarayköy.",
+    "cta": "Explore Products",
+    "ctaSecondary": "Contact Us"
+  },
+  "about": {
+    "title": "About Erk-Power",
+    "subtitle": "Ankara Generator Company",
+    "description": "Our diesel generators, ranging from 18 kVA to 1100 kVA, are designed to meet the energy needs of various sectors. We take pride in serving as a reliable brand by prioritizing high performance, durability, and customer satisfaction.",
+    "feature1": {
+      "title": "High Performance",
+      "desc": "Superior performance with advanced engine technology"
+    },
+    "feature2": {
+      "title": "Durability",
+      "desc": "Robust structure for long-term reliable operation"
+    },
+    "feature3": {
+      "title": "Customer Satisfaction",
+      "desc": "Professional technical support and maintenance services"
+    },
+    "feature4": {
+      "title": "Fast Delivery",
+      "desc": "Quick delivery processes for your urgent needs"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Generator Solutions for Every Need",
+    "diesel": {
+      "title": "Diesel Generators",
+      "description": "Diesel generators combine a diesel engine with an electric generator to deliver superior performance. The diesel engine uses diesel as fuel to produce mechanical energy, which drives the generator, converting it into electrical energy.",
+      "feature1": "18 kVA to 1100 kVA range",
+      "feature2": "Robust structure and durability",
+      "feature3": "Industrial facilities & large projects",
+      "feature4": "Uninterrupted energy supply"
+    },
+    "gasoline": {
+      "title": "Gasoline Generators",
+      "description": "Gasoline generators offer practical and portable solutions by using gasoline fuel to generate electrical energy. With their lightweight and ergonomic designs, they are widely used in homes and outdoor events.",
+      "feature1": "Lightweight and portable",
+      "feature2": "Perfect for home use",
+      "feature3": "Camping and outdoor events",
+      "feature4": "User-friendly operation"
+    },
+    "learnMore": "Learn More"
+  },
+  "specs": {
+    "title": "Technical Specifications",
+    "subtitle": "Generators by Power Capacity",
+    "range1": {
+      "title": "5-10 kW",
+      "desc": "Ideal for small-scale businesses, residential areas, and portable energy needs."
+    },
+    "range2": {
+      "title": "11-20 kW",
+      "desc": "Preferred models for medium-sized businesses and small workshops."
+    },
+    "range3": {
+      "title": "21-50 kW",
+      "desc": "Suitable for small industrial establishments and office buildings."
+    },
+    "range4": {
+      "title": "51-100 kW",
+      "desc": "Designed for commercial facilities and construction projects."
+    },
+    "range5": {
+      "title": "101-300 kW",
+      "desc": "Used in large industrial facilities and data centers."
+    },
+    "range6": {
+      "title": "301-1100 kW",
+      "desc": "Developed for large-scale industrial facilities and power plants."
+    }
+  },
+  "pricing": {
+    "title": "Affordable Generators",
+    "subtitle": "Quality at Competitive Prices",
+    "description": "As Erk-Power, we offer our quality and reliable generator models with the advantage of affordable prices. Our diesel and gasoline generators provide economical solutions considering your budget while offering options suitable for different energy needs.",
+    "cta": "Get Price Quote"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "address": "Kahramankazan Sarayköy, Ankara, Turkey",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "description": "Erk-Power provides energy solutions from Turkey to the world with high-quality diesel and gasoline generators.",
+    "quickLinks": "Quick Links",
+    "products": "Products",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "mobileFooter": {
+    "whatsapp": "WhatsApp",
+    "call": "Call Us",
+    "quote": "Get Quote",
+    "theme": "Theme"
+  }
+}

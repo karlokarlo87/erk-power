@@ -1,0 +1,105 @@
+.mobile-footer {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--bg-secondary);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid var(--card-border);
+  padding: 0.5rem 0.25rem;
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+  transition: background 0.3s ease;
+}
+
+.mobile-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 200, 0, 0.4), transparent);
+}
+
+.mobile-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.25rem;
+  text-decoration: none;
+  flex: 1;
+  transition: all 0.3s ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-action:active {
+  transform: scale(0.95);
+}
+
+.action-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, var(--action-color) 0%, color-mix(in srgb, var(--action-color) 70%, black) 100%);
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 15px color-mix(in srgb, var(--action-color) 40%, transparent);
+  transition: all 0.3s ease;
+}
+
+.mobile-action:hover .action-icon {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--action-color) 50%, transparent);
+}
+
+.action-label {
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.theme-action {
+  font-family: inherit;
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .mobile-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Add padding to body to prevent content from being hidden behind mobile footer */
+  body {
+    padding-bottom: 90px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 380px) {
+  .action-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .action-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .action-label {
+    font-size: 0.6rem;
+  }
+}

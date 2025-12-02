@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "products": "Produkte",
+    "diesel": "Diesel-Generatoren",
+    "gasoline": "Benzin-Generatoren",
+    "contact": "Kontakt",
+    "getQuote": "Angebot Anfordern"
+  },
+  "hero": {
+    "subtitle": "ENERGIELÖSUNGEN VON DER TÜRKEI IN DIE WELT",
+    "title": "Hochwertige Stromgeneratoren",
+    "description": "Als Erk-Power bieten wir mit unseren hochwertigen Diesel- und Benzingeneratoren, die in unserer modernen Fabrik in Kahramankazan Sarayköy produziert werden, Energielösungen von der Türkei in die Welt.",
+    "cta": "Produkte Entdecken",
+    "ctaSecondary": "Kontaktieren Sie Uns"
+  },
+  "about": {
+    "title": "Über Erk-Power",
+    "subtitle": "Ankara Generator-Unternehmen",
+    "description": "Unsere Dieselgeneratoren mit einer Leistung von 18 kVA bis 1100 kVA sind darauf ausgelegt, den Energiebedarf verschiedener Branchen zu decken. Wir sind stolz darauf, als zuverlässige Marke zu dienen, indem wir hohe Leistung, Langlebigkeit und Kundenzufriedenheit priorisieren.",
+    "feature1": {
+      "title": "Hohe Leistung",
+      "desc": "Überlegene Leistung mit fortschrittlicher Motortechnologie"
+    },
+    "feature2": {
+      "title": "Langlebigkeit",
+      "desc": "Robuste Struktur für langfristigen zuverlässigen Betrieb"
+    },
+    "feature3": {
+      "title": "Kundenzufriedenheit",
+      "desc": "Professioneller technischer Support und Wartungsdienste"
+    },
+    "feature4": {
+      "title": "Schnelle Lieferung",
+      "desc": "Schnelle Lieferprozesse für Ihre dringenden Bedürfnisse"
+    }
+  },
+  "products": {
+    "title": "Unsere Produkte",
+    "subtitle": "Generator-Lösungen für Jeden Bedarf",
+    "diesel": {
+      "title": "Diesel-Generatoren",
+      "description": "Dieselgeneratoren kombinieren einen Dieselmotor mit einem elektrischen Generator, um eine überlegene Leistung zu liefern. Der Dieselmotor verwendet Diesel als Kraftstoff, um mechanische Energie zu erzeugen, die den Generator antreibt und in elektrische Energie umwandelt.",
+      "feature1": "18 kVA bis 1100 kVA Bereich",
+      "feature2": "Robuste Struktur und Langlebigkeit",
+      "feature3": "Industrieanlagen & große Projekte",
+      "feature4": "Unterbrechungsfreie Energieversorgung"
+    },
+    "gasoline": {
+      "title": "Benzin-Generatoren",
+      "description": "Benzingeneratoren bieten praktische und tragbare Lösungen, indem sie Benzinkraftstoff zur Stromerzeugung verwenden. Mit ihrem leichten und ergonomischen Design werden sie häufig in Haushalten und bei Outdoor-Veranstaltungen eingesetzt.",
+      "feature1": "Leicht und tragbar",
+      "feature2": "Perfekt für den Hausgebrauch",
+      "feature3": "Camping und Outdoor-Events",
+      "feature4": "Benutzerfreundliche Bedienung"
+    },
+    "learnMore": "Mehr Erfahren"
+  },
+  "specs": {
+    "title": "Technische Spezifikationen",
+    "subtitle": "Generatoren nach Leistungskapazität",
+    "range1": {
+      "title": "5-10 kW",
+      "desc": "Ideal für Kleinunternehmen, Wohngebiete und tragbare Energiebedürfnisse."
+    },
+    "range2": {
+      "title": "11-20 kW",
+      "desc": "Bevorzugte Modelle für mittelständische Unternehmen und kleine Werkstätten."
+    },
+    "range3": {
+      "title": "21-50 kW",
+      "desc": "Geeignet für kleine Industriebetriebe und Bürogebäude."
+    },
+    "range4": {
+      "title": "51-100 kW",
+      "desc": "Konzipiert für gewerbliche Einrichtungen und Bauprojekte."
+    },
+    "range5": {
+      "title": "101-300 kW",
+      "desc": "Verwendet in großen Industrieanlagen und Rechenzentren."
+    },
+    "range6": {
+      "title": "301-1100 kW",
+      "desc": "Entwickelt für große Industrieanlagen und Kraftwerke."
+    }
+  },
+  "pricing": {
+    "title": "Erschwingliche Generatoren",
+    "subtitle": "Qualität zu Wettbewerbsfähigen Preisen",
+    "description": "Als Erk-Power bieten wir unsere qualitativ hochwertigen und zuverlässigen Generatormodelle mit dem Vorteil erschwinglicher Preise an. Unsere Diesel- und Benzingeneratoren bieten wirtschaftliche Lösungen unter Berücksichtigung Ihres Budgets und bieten Optionen für verschiedene Energiebedürfnisse.",
+    "cta": "Preisangebot Anfordern"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Nehmen Sie Kontakt Auf",
+    "name": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht Senden",
+    "address": "Kahramankazan Sarayköy, Ankara, Türkei",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail"
+  },
+  "footer": {
+    "description": "Erk-Power bietet mit hochwertigen Diesel- und Benzingeneratoren Energielösungen von der Türkei in die Welt.",
+    "quickLinks": "Schnelllinks",
+    "products": "Produkte",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "mobileFooter": {
+    "whatsapp": "WhatsApp",
+    "call": "Anrufen",
+    "service": "Service",
+    "quote": "Angebot"
+  }
+}

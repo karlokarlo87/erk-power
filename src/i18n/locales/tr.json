@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "diesel": "Dizel Jeneratörler",
+    "gasoline": "Benzinli Jeneratörler",
+    "contact": "İletişim",
+    "getQuote": "Teklif Al"
+  },
+  "hero": {
+    "subtitle": "TÜRKİYE'DEN DÜNYAYA ENERJİ ÇÖZÜMLERİ",
+    "title": "Yüksek Kaliteli Jeneratörler",
+    "description": "Erk-Power olarak, Kahramankazan Sarayköy'deki modern fabrikamızda ürettiğimiz yüksek kaliteli dizel ve benzinli jeneratörlerle Türkiye'den dünyaya enerji çözümleri sunuyoruz.",
+    "cta": "Ürünleri Keşfet",
+    "ctaSecondary": "Bize Ulaşın"
+  },
+  "about": {
+    "title": "Erk-Power Hakkında",
+    "subtitle": "Ankara Jeneratör Firması",
+    "description": "18 kVA'dan 1100 kVA'ya kadar uzanan dizel jeneratörlerimiz, çeşitli sektörlerin enerji ihtiyaçlarını karşılamak üzere tasarlanmıştır. Yüksek performans, dayanıklılık ve müşteri memnuniyetini ön planda tutarak güvenilir bir marka olarak hizmet vermekten gurur duyuyoruz.",
+    "feature1": {
+      "title": "Yüksek Performans",
+      "desc": "Gelişmiş motor teknolojisi ile üstün performans"
+    },
+    "feature2": {
+      "title": "Dayanıklılık",
+      "desc": "Uzun süreli güvenilir çalışma için sağlam yapı"
+    },
+    "feature3": {
+      "title": "Müşteri Memnuniyeti",
+      "desc": "Profesyonel teknik destek ve bakım hizmetleri"
+    },
+    "feature4": {
+      "title": "Hızlı Teslimat",
+      "desc": "Acil ihtiyaçlarınız için hızlı teslimat süreçleri"
+    }
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Her İhtiyaca Uygun Jeneratör Çözümleri",
+    "diesel": {
+      "title": "Dizel Jeneratörler",
+      "description": "Dizel jeneratörler, üstün performans sunmak için bir dizel motoru elektrik jeneratörü ile birleştirir. Dizel motor, mekanik enerji üretmek için yakıt olarak dizel kullanır ve bu enerji jeneratörü çalıştırarak elektrik enerjisine dönüştürür.",
+      "feature1": "18 kVA - 1100 kVA aralığı",
+      "feature2": "Sağlam yapı ve dayanıklılık",
+      "feature3": "Endüstriyel tesisler ve büyük projeler",
+      "feature4": "Kesintisiz enerji kaynağı"
+    },
+    "gasoline": {
+      "title": "Benzinli Jeneratörler",
+      "description": "Benzinli jeneratörler, elektrik enerjisi üretmek için benzin yakıtı kullanarak pratik ve taşınabilir çözümler sunar. Hafif ve ergonomik tasarımları ile evlerde ve açık hava etkinliklerinde yaygın olarak kullanılır.",
+      "feature1": "Hafif ve taşınabilir",
+      "feature2": "Ev kullanımı için ideal",
+      "feature3": "Kamp ve açık hava etkinlikleri",
+      "feature4": "Kullanıcı dostu çalışma"
+    },
+    "learnMore": "Daha Fazla"
+  },
+  "specs": {
+    "title": "Teknik Özellikler",
+    "subtitle": "Güç Kapasitesine Göre Jeneratörler",
+    "range1": {
+      "title": "5-10 kW",
+      "desc": "Küçük ölçekli işletmeler, konut alanları ve taşınabilir enerji ihtiyaçları için ideal."
+    },
+    "range2": {
+      "title": "11-20 kW",
+      "desc": "Orta ölçekli işletmeler ve küçük atölyeler için tercih edilen modeller."
+    },
+    "range3": {
+      "title": "21-50 kW",
+      "desc": "Küçük endüstriyel kuruluşlar ve ofis binaları için uygun."
+    },
+    "range4": {
+      "title": "51-100 kW",
+      "desc": "Ticari tesisler ve inşaat projeleri için tasarlanmıştır."
+    },
+    "range5": {
+      "title": "101-300 kW",
+      "desc": "Büyük endüstriyel tesisler ve veri merkezlerinde kullanılır."
+    },
+    "range6": {
+      "title": "301-1100 kW",
+      "desc": "Büyük ölçekli endüstriyel tesisler ve enerji santralleri için geliştirilmiştir."
+    }
+  },
+  "pricing": {
+    "title": "Uygun Fiyatlı Jeneratörler",
+    "subtitle": "Rekabetçi Fiyatlarla Kalite",
+    "description": "Erk-Power olarak, kaliteli ve güvenilir jeneratör modellerimizi uygun fiyat avantajıyla sunuyoruz. Dizel ve benzinli jeneratörlerimiz, bütçenizi göz önünde bulundurarak ekonomik çözümler sağlarken farklı enerji ihtiyaçlarına uygun seçenekler sunar.",
+    "cta": "Fiyat Teklifi Al"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "İletişime Geçin",
+    "name": "Adınız",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "address": "Kahramankazan Sarayköy, Ankara, Türkiye",
+    "addressLabel": "Adres",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-posta"
+  },
+  "footer": {
+    "description": "Erk-Power, yüksek kaliteli dizel ve benzinli jeneratörlerle Türkiye'den dünyaya enerji çözümleri sunmaktadır.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "products": "Ürünler",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "mobileFooter": {
+    "whatsapp": "WhatsApp",
+    "call": "Ara",
+    "quote": "Teklif Al",
+    "theme": "Tema"
+  }
+}
